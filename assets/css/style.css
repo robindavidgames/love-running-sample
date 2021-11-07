@@ -28,6 +28,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -116,4 +117,64 @@ h1, h2 {
     right: 150px;
     /*to fix it in position */
     position: absolute;
+}
+
+/* club ethos */
+
+#club-ethos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    /* background-color: blue; */
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    /* background-color: silver; */
+}
+
+#center-about {
+    /* padding-top: 30px; */
+    width: 33%;
+    /* to align centre, this command centres it within the div */
+    margin: 0 auto;
+    background-color: green;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    /* to align vertically */
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    /* to align vertically */
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
 }
