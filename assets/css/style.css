@@ -239,3 +239,16 @@ footer ul li {
     font-size: 150%;
     padding: 30px;
 }
+
+#photos {
+    /* This makes sure the images are not in the header */
+    clear: both;
+    /* to remove spaces between images */
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photos img {
+    width: 100%;
+}
